@@ -15,7 +15,7 @@ bool connected_to_smart=false;
 String MODID;
 unsigned long millis_prev;
 bool ledState =false;
-#define MOD_VERSION "0.0.0.16"
+#define MOD_VERSION "0.0.0.18"
 WiFiClient wclient;
 //WiFiServer server(48655);
 //WiFiClient wclient_autoconf;

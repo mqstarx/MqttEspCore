@@ -345,7 +345,7 @@ String SplitCommand ( String input_string, String separator, int segment_number,
   }*/
 void UpdateBin()
 {
-  t_httpUpdate_return ret = ESPhttpUpdate.update("http://smarthomemod.ucoz.net/CoreMqttV2.ino.nodemcu.bin");
+  t_httpUpdate_return ret = ESPhttpUpdate.update("http://mod.factortech.ru/CoreMqttV2.ino.nodemcu.bin");
   //t_httpUpdate_return  ret = ESPhttpUpdate.update("https://server/file.bin");
 
   switch (ret) {
